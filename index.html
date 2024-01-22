@@ -16,6 +16,7 @@
             extend: {
             colors: {
                 clifford: '#da373d',
+                'heading-primary-color': '#131318',
             }
             }
         }
@@ -30,6 +31,81 @@
 </head>
 
 <body class="font-family">
-    
+    <!-- header and Nav section  -->
+
+    <header class="container mx-auto">
+
+        <!-- Nav section  -->
+
+        <!-- <div class="navbar bg-base-100 my-3 lg:my-10">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn  btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a class="text-[#424247]">Home</a></li>
+                    <li><a class="text-[#424247]">About</a></li>
+                    <li><a class="text-[#424247]">Pages</a></li>
+                    <li><a class="text-[#424247]">Blog</a></li>
+                    <li><a class="text-[#424247]">Contact</a></li>
+                </ul>
+              </div>
+              <h1 class="text-2xl heading-primary-color font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-[#424247]">Home</a></li>
+                <li><a class="text-[#424247]">About</a></li>
+                <li><a class="text-[#424247]">Pages</a></li>
+                <li><a class="text-[#424247]">Blog</a></li>
+                <li><a class="text-[#424247]">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex items-center gap-6">
+                <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+              <a class="text-white rounded-lg font-bold bg-[#FF4240] px-6 py-4 border-0">Get Ticket</a>
+            </div>
+          </div> -->
+
+          <!-- Header section  -->
+        <section >
+            <div class="carousel w-full relative">
+                <div id="slide1" class="carousel-item relative w-full bg-center bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0)),url('images/1.png')] lg:h-[45vh] h-[25vh] rounded-xl">
+                  
+                  <div class="absolute flex justify-between left-[50%] bottom-10 lg:bottom-10 lg:left-10 gap-6 -translate-x-2/4 md:translate-x-0">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white border-0 text-xl">❮</a> 
+                    <a href="#slide2" class="btn btn-circle btn-circle bg-black text-white border-0 text-xl">❯</a>
+                  </div>
+                  <div class="bg-black w-full lg:w-1/2 p-8 rounded-lg space-y-4 absolute lg:bottom-10 lg:right-10 lg:flex flex-col hidden">
+                    <h1 class="text-white text-xl font-extrabold">Meet all the heroes from the field</h1>
+                    <p class="text-[#FFFFFF99] ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+              </div> 
+              <div class="bg-black w-full lg:hidden p-8 rounded-lg space-y-4 absolute ">
+                <h1 class="text-white text-xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-[#FFFFFF99] ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+        </section>
+
+
+    </header>
+
+
 </body>
 </html>
